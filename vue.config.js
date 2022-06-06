@@ -7,6 +7,7 @@ module.exports = {
   publicPath: '',
   productionSourceMap: false,
   lintOnSave:false,
+  outputDir: 'yuansheng_web_ncq_dist', // 输出文件目录
   devServer: {
    // proxy: process.env.VUE_APP_DEV_REQUEST_DOMAIN_PREFIX,
    port: 8526,
